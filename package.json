@@ -1,0 +1,25 @@
+{
+  "name": "sails-mssql",
+  "version": "0.0.1",
+  "description": "Microsoft SQL Server adapter for Sails.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Adapter should be tested using Sails.js core.\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balderdashy/sails-adapter-boilerplate.git"
+  },
+  "keywords": [
+    "orm",
+    "waterline",
+    "sails",
+    "sailsjs",
+    "sails.js"
+  ],
+  "author": "Stuart Welham",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+  }
+}
