@@ -2,7 +2,7 @@
   "name": "sails-mssql",
   "version": "0.0.1",
   "description": "Microsoft SQL Server adapter for Sails.js",
-  "main": "index.js",
+  "main": "lib/adapter.js",
   "scripts": {
     "test": "echo \"Adapter should be tested using Sails.js core.\" && exit 1"
   },
@@ -21,5 +21,7 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
+    "underscore": "~1.5.2",
+    "underscore.string": "~2.3.3"
   }
 }
