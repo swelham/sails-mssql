@@ -6,7 +6,8 @@ This is the salils adapter for using Microsoft SQL Server with Sails.js.
 
 # todo
 
-* ~~All the basic CRUD methods~~
+* ~~Required CRUD methods~~
+* Optional CRUD methods
 * Database generation
 * Refactor all queries with a criteria to use sql parameters
 
