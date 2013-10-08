@@ -10,7 +10,7 @@ This is the salils adapter for using Microsoft SQL Server with Sails.js.
 * Add pagination support
 * Optional CRUD methods
     * ~~createEach~~
-    * findOrCreate
+    * ~~findOrCreate~~
     * findOrCreateEach
 * ~~Database generation~~
 * Refactor all queries with a criteria to use sql parameters
