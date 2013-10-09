@@ -8,12 +8,13 @@ This is the salils adapter for using Microsoft SQL Server with Sails.js.
 
 * ~~Required CRUD methods~~
 * Add pagination support
-* Optional CRUD methods
+* ~~Optional CRUD methods~~
     * ~~createEach~~
     * ~~findOrCreate~~
-    * findOrCreateEach
+    * ~~findOrCreateEach~~
 * ~~Database generation~~
 * Refactor all queries with a criteria to use sql parameters
+* Batch queries to prevent multiple database calls (such as createEach, findOrCreate, etc...)
 
 
 ## about sails.js and waterline
