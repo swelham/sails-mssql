@@ -15,6 +15,7 @@ This is the salils adapter for using Microsoft SQL Server with Sails.js.
 * ~~Database generation~~
 * Refactor all queries with a criteria to use sql parameters
 * Batch queries to prevent multiple database calls (such as createEach, findOrCreate, etc...)
+* Need some basic usage documentation
 
 
 ## about sails.js and waterline
