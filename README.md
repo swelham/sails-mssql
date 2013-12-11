@@ -13,8 +13,13 @@ Extract the zip file into the node_modules folder of the sails-mssql module and 
 
 # sails configuration
 
-Open the config/adapter.js file from the root of your sails application and configure sails-mssql like so.
+You can specify the sails-mssql configuration either by a plain connection string, or you can specify each part of the connection string in a key value pair.
 
+## configuring the adapter
+
+Open the config/adapter.js file from the root of your sails application and configure sails-mssql using one of the following options.
+
+### connection string
 ```
 module.exports.adapters = {
 
@@ -22,10 +27,28 @@ module.exports.adapters = {
 
   mssql: {
     module: 'sails-mssql',
-    connectionString: 'Driver={SQL Server Native Client 11.0};Server=Your Server;Database=Your Database;Trusted_Connection={Yes}'
+    connectionString: 'Driver=SQL Server Native Client 11.0;Server=Your Server;Database=Your Database;Trusted_Connection=Yes'
   }
 };
 ```
+or
+### connection key value pairs
+```
+module.exports.adapters = {
+
+  'default': 'mssql',
+
+  mssql: {
+    module: 'sails-mssql',
+    connection: {
+    	server: 'Your Server',
+		database: 'Your Database',
+		trusted_connection: 'yes'
+    }
+  }
+};
+```
+*Note that on the key value pair option you do not need to specify the driver as the default is 'SQL Server Native Client 11.0'.*
 
 # todo
 
