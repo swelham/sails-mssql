@@ -1,5 +1,9 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png) 
 
+# sails 0.10.x support
+
+For 0.10.x support I would advise taking a look at the [jaredfromsubway/sails-mssql](https://github.com/jaredfromsubway/sails-mssql) fork of this repo.
+
 # sails-mssql
 
 This is the salils adapter for using Microsoft SQL Server with Sails.js.
